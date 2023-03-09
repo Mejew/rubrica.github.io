@@ -309,6 +309,7 @@ p {
     .header-recientes {
         margin-top: 13vh;
         flex-direction: column;
+        margin-left: 10%;
     }
 
     .container-card-reciente {
@@ -328,6 +329,7 @@ p {
 
     .texto-receinte {
         font-size: 6vw;
+        margin-left: 0;
     }
 
     .imagen-logo {
