@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;700&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Hind Vadodara', sans-serif;
+    color: #331B3B;
+}
+
+.cabezera {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/*Aqui Empiezo con el Home*/
+.home {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.text {
+    font-size: 5vw;
+    font-weight: 300;
+    width: 100%;
+    height: 50%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    
+}
+
+#group3 {
+    width: 100%
+}
+
+.home p {
+    margin-left: 10%;
+    font-size: 2vw;
+    text-align: justify;
+}
+
+.titulo {
+    margin-right: 10%;
+    font-weight: 700;
+    font-size: 7vw;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boton {
+    margin-left: 10%;
+    min-width: 150px;
+    height: 50px;
+    color: #fff;
+    font-weight: 2vw;
+    border-radius: 5px;
+    border: none;
+    background: #331B3B;
+}
+
+/*Que Hacemis*/
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+    width: 450px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+#web {
+    background-color: #FFDED4;
+}
+
+#computer {
+    background-color: #FFEED4;
+}
+
+#mobile {
+    background-color: #D4F0FF;
+}
+
+.card h4 {
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 0 15px 15px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.hacer h1 {
+    margin-top: 10%;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.hacer h2 {
+    margin-top: 0;
+    margin-bottom: 7%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 300;
+}
+
+.hacer {
+    margin: auto;
+    width: 95%;
+    background: #ECF7FF;
+    border-radius: 0px 400px 0px 0px;
+}
+
+/*Hacerca de Nosotros*/
+.nosotros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.nosotros h1 {
+    font-size: 3vw;
+    font-weight: 300;
+}
+
+.nosotros p {
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.caja_texto {
+    height: 60%;
+    margin: auto 0 auto 0;
+}
+
+/*Trabajos Recientes*/
+.recientes {
+    background-image: url("image/Rectangle\ 13\(1\).png");
+    background-size: cover;
+}
+
+.card2 {
+    width: 360px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.card2 img {
+    margin: 0%;
+    margin-top: 5%;
+}
+
+.titulo_card2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-card-reciente {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-reciente {
+    margin-block-start: 1.7em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: 20px;
+    border: solid 1px #343434;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0);
+    color: #343434;
+    font-weight: bolder;
+}
+
+.texto-receinte {
+    font-size: 3vw;
+    margin-left: 3%;
+    margin-top: 0%;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.texto-receinte p {
+    color: black;
+}
+
+.header-recientes {
+    display: flex;
+
+}
+
+/*Nuestros testimonios*/
+.header-testimonios {
+    font-size: 4vw;
+}
+
+.container-card-testimonios {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-testimonios {
+    text-align: center;
+    margin-left: 0;
+    font-size: 4vw;
+}
+.mini-text{
+    font-weight: 600;
+    color: black;
+}
+.card3{
+    color: black;
+}
+p{
+    text-align: justify;
+}
+
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .cabezera {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1;
+        justify-content: center;
+    }
+
+    .home p {
+        font-size: 3vw;
+        
+    }
+
+    .nosotros p {
+        font-size: 2.5vw;
+    }
+
+    .title {
+        margin: 1rem auto;
+        grid-row: 1/2;
+    }
+
+    .navbar {
+        margin: 0 auto;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+    .boton {
+        width: 85px;
+        height: 35px;
+    }
+
+    .hacer h1 {
+        font-size: 6vw;
+    }
+
+    .hacer h2 {
+        font-size: 6vw;
+
+    }
+
+    .header-recientes {
+        margin-top: 13vh;
+        flex-direction: column;
+    }
+
+    .container-card-reciente {
+        flex-direction: column;
+    }
+
+    .container-card-testimonios {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .texto-testimonios{
+        font-size: 5vw;
+    }
+}
